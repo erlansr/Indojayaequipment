@@ -76,3 +76,22 @@ body {
 .footer .link a:hover {
   color: #0d6efd;
 }
+
+.modal-content {
+  border-radius: 12px; /* Membuat modal lebih rounded */
+  background-color: #fff;
+}
+
+.modal-header {
+  border-bottom: none; /* Menghilangkan garis di header */
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal img {
+  border-radius: 10px; /* Agar gambar di dalam modal juga membulat */
+  max-height: 400px; /* Batasi tinggi gambar agar tetap proporsional */
+  width: auto;
+}
